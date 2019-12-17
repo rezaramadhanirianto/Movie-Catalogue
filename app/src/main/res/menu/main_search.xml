@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_change_settings"
+        android:title="@string/setting"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/all"
+        android:title="@string/list"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/fav"
+        android:title="@string/fav"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/setting"
+        android:title="@string/setting_alarm"
+        app:showAsAction="never"
+        />
+</menu>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/SharkBlue">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:paddingTop="60dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout2">
+
+        <LinearLayout
+            android:id="@+id/daily_notif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvNotifTitle"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextContent.SettingValue"
+                    android:text="@string/notif_daily" />
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_daily"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/upcoming_notif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/viewDaily"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextContent.SettingValue"
+                    android:text="@string/notif_movie" />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch_upcoming"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvNotifTitle"
+            style="@style/TextContent.SettingTitle"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:text="@string/notif" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvSetingTitle"-->
+<!--            style="@style/TextContent.SettingTitle"-->
+<!--            android:layout_below="@id/viewupcoming"-->
+<!--            android:layout_marginTop="@dimen/activity_vertical_margin"-->
+<!--            android:layout_marginBottom="@dimen/activity_vertical_margin"-->
+<!--            android:text="@string/tv_setting_settings" />-->
+
+        <View
+            android:id="@+id/viewupcoming"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/upcoming_notif"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@color/colorAccent" />
+
+        <View
+            android:id="@+id/viewDaily"
+            style="@style/SettingView"
+            android:layout_below="@id/daily_notif" />
+
+<!--        <View-->
+<!--            style="@style/SettingView"-->
+<!--            android:layout_below="@id/setting_local" />-->
+
+<!--        <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--            android:id="@+id/setting_local"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tvSetingTitle"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_weight="1"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <TextView-->
+<!--                    style="@style/TextContent.SettingValue"-->
+<!--                    android:text="@string/tv_setting_locale" />-->
+
+<!--                <TextView-->
+<!--                    style="@style/TextContent"-->
+<!--                    android:text="@string/tv_setting_change_your_phone_localization" />-->
+<!--            </androidx.appcompat.widget.LinearLayoutCompat>-->
+<!--        </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

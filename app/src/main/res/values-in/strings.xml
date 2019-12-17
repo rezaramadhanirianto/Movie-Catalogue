@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Katalog FIlm</string>
+
+    <string name="name_movie">Nama Film</string>
+    <string name="overview">Deskripsi</string>
+    <string name="fav">Favorit</string>
+    <string name="list">Semua</string>
+    <string name="search">Cari</string>
+    <string name="search_hint">Masukkan Kata</string>
+
+    <string name="setting">Ubah Bahasa</string>
+    <string name="tab_movie">Film</string>
+    <string name="tab_tv">Acara Tv</string>
+
+    <string name="check_desc">Tidak tersedia deskripnya</string>
+    <string name="success">Sukses</string>
+    <string name="failed">Gagal</string>
+    <string name="nodata">Tidak Ada Data</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello fagment kosong</string>
+    <string name="notification_message">Kembali dan cek film baru</string>
+    <string name="notification_title">Halo, kami rindu kamu</string>
+    <string name="notif_daily">Notifikasi Setiap Hari</string>
+    <string name="notif_movie">Notifikasi Film Baru</string>
+    <string name="notif">Notification</string>
+    <string name="setting_alarm">Pengaturan</string>
+    <string name="daily_on">Alaram Daily Aktif</string>
+    <string name="daily_off">Alaram Daily Mati</string>
+    <string name="upcoming_on">Alaram Yang Akan Datang Aktif</string>
+    <string name="upcoming_off">Alaram Yang Akan Datang Mati</string>
+    <string name="new_movie">Sudah Rilis Sekarang !</string>
+    <string name="release_movie">Film Baru Sudah Rilis</string>
+</resources>

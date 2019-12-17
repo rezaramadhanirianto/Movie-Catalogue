@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+
+    <string name="name_movie">Movie Name</string>
+    <string name="overview">Description</string>
+    <string name="fav">Favorite</string>
+    <string name="list">All</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Enter Word</string>
+
+    <string name="setting">Change Language</string>
+    <string name="tab_movie">Movies</string>
+    <string name="tab_tv">Tv Show</string>
+
+    <string name="check_desc">Description not found</string>
+    <string name="success">Success</string>
+    <string name="failed">Failed</string>
+    <string name="nodata">Nothing To Show</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notification_message">Comeback and check new movies</string>
+    <string name="notification_title">Hello, we miss you</string>
+    <string name="notif_daily">Notification Daily</string>
+    <string name="notif_movie">Notification New Movie</string>
+    <string name="notif">Notification</string>
+    <string name="key_notif_daily" translatable="false">daily</string>
+    <string name="key_notif_movie" translatable="false">movie</string>
+    <string name="setting_alarm">Settings</string>
+    <string name="daily_on">Alarm Daily On</string>
+    <string name="daily_off">Alarm Daily Off</string>
+    <string name="upcoming_on">Alarm Upcoming On</string>
+    <string name="upcoming_off">Alarm Upcoming Off</string>
+    <string name="new_movie">Has been release today !</string>
+    <string name="release_movie">New Movie Has Release</string>
+
+</resources>

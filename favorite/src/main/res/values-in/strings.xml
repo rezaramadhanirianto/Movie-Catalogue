@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Favorit</string>
+
+    <string name="name_movie">Nama Film</string>
+    <string name="overview">Deskripsi</string>
+    <string name="fav">Favorit</string>
+    <string name="list">Semua</string>
+
+    <string name="setting">Ubah Bahasa</string>
+    <string name="tab_movie">Film</string>
+    <string name="tab_tv">Acara Tv</string>
+
+    <string name="check_desc">Tidak tersedia deskripnya</string>
+    <string name="success">Sukses</string>
+    <string name="failed">Gagal</string>
+    <string name="nodata">Tidak Ada Data</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello fagment kosong</string>
+</resources>

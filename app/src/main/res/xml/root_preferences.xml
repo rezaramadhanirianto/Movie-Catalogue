@@ -1,0 +1,21 @@
+
+
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+        <SwitchPreference
+            app:defaultValue="false"
+            app:key="@string/key_notif_daily"
+            app:title="@string/notif_daily" />
+
+        <SwitchPreference
+            app:defaultValue="false"
+            app:key="@string/key_notif_movie"
+            app:title="@string/notif_movie"
+            />
+
+
+
+</PreferenceScreen>
