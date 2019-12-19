@@ -3,7 +3,9 @@ Project Movie Catalogue adalah submission project untuk kelas Dicoding - Menjadi
 Project Movie Catalogue terintegrasi dengan api the.movie.db
 
 <h2>Fitur</h2>
-- Alarm Manager
-- Favorite with sqlite
-- Pencarian
-- Detail Movie dan Tv Show
+<ul>
+  <li>Alarm Manager</li>  
+  <li>Favorite with sqlite</li>  
+  <li>Pencarian</li>  
+  <li>Detail Movie dan Tv Show</li>  
+</ul>
